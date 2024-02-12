@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Selective Browsing Data Clearer",
+  "version": "1.0",
+  "description": "www.iarifbd.info",
+  "permissions": ["browsingData"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "grv-transprent-logo.png",
+      "48": "grv-transprent-logo.png",
+      "128": "grv-transprent-logo.png"
+    }
+  }
+}
